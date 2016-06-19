@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>TODO write content</div>
+        <h1 align="center">Pagina de inicio</h1>
+        <!--si pongo method="post" no se mostrara los datos"-->
+        <form action="SumaServlet" method="get">
+            Num1:<input type="text" name="num1"><br>
+            Num1:<input type="text" name="num2"><br>
+            Operacion:<select name="operacion">
+                <option>+</option>
+                <option>-</option>
+                <option>*</option>
+                <option>/</option>
+            </select><br>
+            <input type="submit" value="Calcular"><br>
+        </form>
+    </body>
+</html>
